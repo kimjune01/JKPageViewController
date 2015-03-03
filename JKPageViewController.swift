@@ -27,7 +27,7 @@ import UIKit
  - comes with an Appearable hook for child view controllers
 
 */
-class JKPageViewController: UIPageViewController {
+@objc class JKPageViewController: UIPageViewController {
   /// for inspecting view hierarchy and current index.
   var debugging:Bool = false {
     didSet {

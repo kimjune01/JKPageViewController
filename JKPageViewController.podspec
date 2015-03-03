@@ -25,7 +25,7 @@ s.description      = " - encapsulates common delegate methods
 s.author           =  {"June Kim" => "kimjune01@gmail.com"}
 s.source           =  {:git => "https://github.com/kimjune01/JKPageViewController.git", :tag =>  s.version.to_s }
 
-  s.platform     = :ios, '8.3'
+  s.platform     = :ios, '8.1'
   s.source_files = 'JKPageViewController.swift'
   s.frameworks = 'UIKit'
 end
