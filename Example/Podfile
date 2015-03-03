@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JKPageViewController', :exclusive => true do
+  pod "JKPageViewController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JKPageViewController", :path => "../"
+
+  
+end
