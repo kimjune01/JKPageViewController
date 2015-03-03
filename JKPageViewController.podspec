@@ -10,29 +10,24 @@
 Pod::Spec.new do |s|
   s.name             = "JKPageViewController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JKPageViewController."
-  s.description      = <<-DESC
-                       An optional longer description of JKPageViewController
+  s.summary          = "A simple wrapper class for UIPageViewController with easy implementation."
+s.description      = " - encapsulates common delegate methods
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JKPageViewController"
+- keeps track of indexes
+
+- turns page control on/off with the pageControlEnabled boolean
+
+- comes with an Appearable hook for child view controllers
+"
+  s.homepage         = "https://github.com/kimjune01/JKPageViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "kimjune01" => "kimjune01@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JKPageViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.author           =  {"June Kim" => "kimjune01@gmail.com"}
+s.source           =  {:git => "https://github.com/kimjune01/JKPageViewController.git", :tag =>  s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.3'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'JKPageViewController' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'JKPageViewController.swift'
+  s.frameworks = 'UIKit'
 end

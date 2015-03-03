@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025A9CA9F42257929FB8E9BE /* Pods-Tests-JKPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE373CF114B3DC282BFFA074 /* Pods-Tests-JKPageViewController-dummy.m */; };
+		29C4F53C41F295139A7A8D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */; };
+		3999F0641AA6441B00F1C458 /* JKPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999F0631AA6441B00F1C458 /* JKPageViewController.swift */; };
+		7F06BCC2C6CCEE1FE28CC6C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */; };
+		8A6FB26F28E0C5ED082696C2 /* Pods-JKPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6071E146BFA8296E03AEF /* Pods-JKPageViewController-dummy.m */; };
+		9330AE1AB3BC60AC5AB705AA /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E8ED8BEF9D5A225459F15F /* Pods-Tests-dummy.m */; };
+		D2D7F349FF328D98CE393015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */; };
+		F78FF568E115CEA51F894FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */; };
+		FDABBCA53FD2324E961FA45A /* Pods-JKPageViewController-JKPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62E8CF87432569ED961577 /* Pods-JKPageViewController-JKPageViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211D7F5DB434DB6245855E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D83EEB999570E72EC40FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB97C5772A486742CADB5D18;
+			remoteInfo = "Pods-Tests-JKPageViewController";
+		};
+		5EA2100A42576CACE6CCF47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D83EEB999570E72EC40FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9347CE60F83D1200DD16E5DC;
+			remoteInfo = "Pods-JKPageViewController-JKPageViewController";
+		};
+		95B727410A7F5A399596F39D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D83EEB999570E72EC40FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA034C9C1B4FB8F6F267572;
+			remoteInfo = JKPageViewController;
+		};
+		A8CE92A367D7F1C75C69F707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D83EEB999570E72EC40FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA034C9C1B4FB8F6F267572;
+			remoteInfo = JKPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDDCAD8DD9572B2956BE8E9 /* Pods-JKPageViewController-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKPageViewController-environment.h"; sourceTree = "<group>"; };
+		19F58CE7151D12B3D2E4257F /* Pods-Tests-JKPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JKPageViewController.xcconfig"; path = "../Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController.xcconfig"; sourceTree = "<group>"; };
+		1CA2CA4CA741C30B481F214E /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		23E542534E80C0A4C0D1E3EA /* Pods-Tests-JKPageViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JKPageViewController-Private.xcconfig"; path = "../Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		2C56FAC58A9B8DA7591173DD /* Pods-JKPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		33565850209922E45094AE51 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		339F4EFAFEDFD9C3CBEC0B53 /* Pods-JKPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		347C95869F0AC927B120D02B /* Pods-Tests-JKPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-JKPageViewController-prefix.pch"; path = "../Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		3999F0631AA6441B00F1C458 /* JKPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPageViewController.swift; sourceTree = "<group>"; };
+		3A09A228CA2CC1DDC67C9E74 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48C62D78BE5B85D5E520E2F4 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E6EBB4A769C3AECCF2D73EF /* libPods-Tests-JKPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JKPageViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A62E8CF87432569ED961577 /* Pods-JKPageViewController-JKPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKPageViewController-JKPageViewController-dummy.m"; sourceTree = "<group>"; };
+		5D7FAC2D3135076A337E3BC2 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F20DEB5E575E3007AAFC92A /* Pods-JKPageViewController-JKPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKPageViewController-JKPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		66BE3DCADC44464A648EBB98 /* Pods-JKPageViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKPageViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BF12CE40EECF203583917CC /* libPods-JKPageViewController-JKPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKPageViewController-JKPageViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E820E80FF741C424916A974 /* Pods-JKPageViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKPageViewController-resources.sh"; sourceTree = "<group>"; };
+		72E8ED8BEF9D5A225459F15F /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		7D34344679031309A0F49E7F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AE6949D5EB0808A12CE52189 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE964470DA37736A4F984A89 /* JKPageViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKPageViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B450D20567A58972737D9355 /* libPods-JKPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKPageViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C4313A562DEFD00B2EE947 /* Pods-JKPageViewController-JKPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKPageViewController-JKPageViewController.xcconfig"; sourceTree = "<group>"; };
+		B985F9FF4150DBE5438481DE /* Pods-JKPageViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKPageViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4D6071E146BFA8296E03AEF /* Pods-JKPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKPageViewController-dummy.m"; sourceTree = "<group>"; };
+		E6C7C0EFA7D7B13C14C0E474 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		FDEDD959A826302ABB6620D2 /* Pods-JKPageViewController-JKPageViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKPageViewController-JKPageViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		FE373CF114B3DC282BFFA074 /* Pods-Tests-JKPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-JKPageViewController-dummy.m"; path = "../Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149B538BC3CB464CD8A548B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F06BCC2C6CCEE1FE28CC6C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D7363600CC8404005E6701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78FF568E115CEA51F894FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C3526E671C059F8F1662B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7F349FF328D98CE393015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2CEDFB7ECEA9C536FC6FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C4F53C41F295139A7A8D8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D5E94E563F2AE552FB3079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22783AE9F8A9B0FBB931DCC0 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48C62D78BE5B85D5E520E2F4 /* Pods-Tests-acknowledgements.markdown */,
+				7D34344679031309A0F49E7F /* Pods-Tests-acknowledgements.plist */,
+				72E8ED8BEF9D5A225459F15F /* Pods-Tests-dummy.m */,
+				1CA2CA4CA741C30B481F214E /* Pods-Tests-environment.h */,
+				E6C7C0EFA7D7B13C14C0E474 /* Pods-Tests-resources.sh */,
+				3A09A228CA2CC1DDC67C9E74 /* Pods-Tests.debug.xcconfig */,
+				5D7FAC2D3135076A337E3BC2 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		34E10A1DE64E58440EA6A28A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4AFE0BD32C1E009F1E55EB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		753E149A56DA1EFCEF7517BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE964470DA37736A4F984A89 /* JKPageViewController.bundle */,
+				B450D20567A58972737D9355 /* libPods-JKPageViewController.a */,
+				6BF12CE40EECF203583917CC /* libPods-JKPageViewController-JKPageViewController.a */,
+				AE6949D5EB0808A12CE52189 /* libPods-Tests.a */,
+				4E6EBB4A769C3AECCF2D73EF /* libPods-Tests-JKPageViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82920718E55DF340A6B0C7DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEAFFB836EF9603EEF4C27B1 /* Pods-JKPageViewController */,
+				22783AE9F8A9B0FBB931DCC0 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEAFFB836EF9603EEF4C27B1 /* Pods-JKPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B985F9FF4150DBE5438481DE /* Pods-JKPageViewController-acknowledgements.markdown */,
+				66BE3DCADC44464A648EBB98 /* Pods-JKPageViewController-acknowledgements.plist */,
+				E4D6071E146BFA8296E03AEF /* Pods-JKPageViewController-dummy.m */,
+				0DDDCAD8DD9572B2956BE8E9 /* Pods-JKPageViewController-environment.h */,
+				6E820E80FF741C424916A974 /* Pods-JKPageViewController-resources.sh */,
+				2C56FAC58A9B8DA7591173DD /* Pods-JKPageViewController.debug.xcconfig */,
+				339F4EFAFEDFD9C3CBEC0B53 /* Pods-JKPageViewController.release.xcconfig */,
+			);
+			name = "Pods-JKPageViewController";
+			path = "Target Support Files/Pods-JKPageViewController";
+			sourceTree = "<group>";
+		};
+		B81015D7C3E7B2C22BC0F3C3 /* JKPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3999F0631AA6441B00F1C458 /* JKPageViewController.swift */,
+				E2CC2EAB94C78793DDD1E5F9 /* Support Files */,
+			);
+			name = JKPageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C082734C237A63500B28D105 = {
+			isa = PBXGroup;
+			children = (
+				33565850209922E45094AE51 /* Podfile */,
+				C6BD4582406CBBA6C0293100 /* Development Pods */,
+				EC656265E51F39BD9AB1B5EF /* Frameworks */,
+				753E149A56DA1EFCEF7517BE /* Products */,
+				82920718E55DF340A6B0C7DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C6BD4582406CBBA6C0293100 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B81015D7C3E7B2C22BC0F3C3 /* JKPageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2CC2EAB94C78793DDD1E5F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4313A562DEFD00B2EE947 /* Pods-JKPageViewController-JKPageViewController.xcconfig */,
+				FDEDD959A826302ABB6620D2 /* Pods-JKPageViewController-JKPageViewController-Private.xcconfig */,
+				5A62E8CF87432569ED961577 /* Pods-JKPageViewController-JKPageViewController-dummy.m */,
+				5F20DEB5E575E3007AAFC92A /* Pods-JKPageViewController-JKPageViewController-prefix.pch */,
+				19F58CE7151D12B3D2E4257F /* Pods-Tests-JKPageViewController.xcconfig */,
+				23E542534E80C0A4C0D1E3EA /* Pods-Tests-JKPageViewController-Private.xcconfig */,
+				FE373CF114B3DC282BFFA074 /* Pods-Tests-JKPageViewController-dummy.m */,
+				347C95869F0AC927B120D02B /* Pods-Tests-JKPageViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-JKPageViewController-JKPageViewController";
+			sourceTree = "<group>";
+		};
+		EC656265E51F39BD9AB1B5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E10A1DE64E58440EA6A28A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA034C9C1B4FB8F6F267572 /* JKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFB14816DAC36EA8BF79343 /* Build configuration list for PBXNativeTarget "JKPageViewController" */;
+			buildPhases = (
+				151017A3B4ACA875A4745AD7 /* Sources */,
+				D1D5E94E563F2AE552FB3079 /* Frameworks */,
+				6ABE9F504E41A7CDFCA4DF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKPageViewController;
+			productName = JKPageViewController;
+			productReference = AE964470DA37736A4F984A89 /* JKPageViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7837715270F0F4FAC1316BAE /* Pods-JKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367A968820D837E0BD0A3699 /* Build configuration list for PBXNativeTarget "Pods-JKPageViewController" */;
+			buildPhases = (
+				C41CE3A44C446C10195A7F35 /* Sources */,
+				5E2CEDFB7ECEA9C536FC6FD7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA60A34441A2138C1701943 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKPageViewController";
+			productName = "Pods-JKPageViewController";
+			productReference = B450D20567A58972737D9355 /* libPods-JKPageViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9347CE60F83D1200DD16E5DC /* Pods-JKPageViewController-JKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB36F7CE53B102CFBB490C2A /* Build configuration list for PBXNativeTarget "Pods-JKPageViewController-JKPageViewController" */;
+			buildPhases = (
+				911DCFCFED2F3C13C3ECEAC6 /* Sources */,
+				149B538BC3CB464CD8A548B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E8C633D271CF19E870ABB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKPageViewController-JKPageViewController";
+			productName = "Pods-JKPageViewController-JKPageViewController";
+			productReference = 6BF12CE40EECF203583917CC /* libPods-JKPageViewController-JKPageViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAD691BBFB04F22DCB5B777D /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C57CE6BEB389E703D7827D8 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				7BCFF025C2CBD5F61ADC503C /* Sources */,
+				30C3526E671C059F8F1662B3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585EEA1E28660A46E5C3C1D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = AE6949D5EB0808A12CE52189 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB97C5772A486742CADB5D18 /* Pods-Tests-JKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B20680F791F58EDA0EE5545 /* Build configuration list for PBXNativeTarget "Pods-Tests-JKPageViewController" */;
+			buildPhases = (
+				40524405529DA7F547C886D6 /* Sources */,
+				24D7363600CC8404005E6701 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1831D229CB9F5A1EB0F40007 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-JKPageViewController";
+			productName = "Pods-Tests-JKPageViewController";
+			productReference = 4E6EBB4A769C3AECCF2D73EF /* libPods-Tests-JKPageViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D83EEB999570E72EC40FCAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B27400411769C240CE12A5F5 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C082734C237A63500B28D105;
+			productRefGroup = 753E149A56DA1EFCEF7517BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA034C9C1B4FB8F6F267572 /* JKPageViewController */,
+				7837715270F0F4FAC1316BAE /* Pods-JKPageViewController */,
+				9347CE60F83D1200DD16E5DC /* Pods-JKPageViewController-JKPageViewController */,
+				BAD691BBFB04F22DCB5B777D /* Pods-Tests */,
+				BB97C5772A486742CADB5D18 /* Pods-Tests-JKPageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABE9F504E41A7CDFCA4DF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151017A3B4ACA875A4745AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3999F0641AA6441B00F1C458 /* JKPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40524405529DA7F547C886D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025A9CA9F42257929FB8E9BE /* Pods-Tests-JKPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCFF025C2CBD5F61ADC503C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9330AE1AB3BC60AC5AB705AA /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911DCFCFED2F3C13C3ECEAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABBCA53FD2324E961FA45A /* Pods-JKPageViewController-JKPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41CE3A44C446C10195A7F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6FB26F28E0C5ED082696C2 /* Pods-JKPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1831D229CB9F5A1EB0F40007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKPageViewController;
+			target = 2DA034C9C1B4FB8F6F267572 /* JKPageViewController */;
+			targetProxy = 95B727410A7F5A399596F39D /* PBXContainerItemProxy */;
+		};
+		19E8C633D271CF19E870ABB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKPageViewController;
+			target = 2DA034C9C1B4FB8F6F267572 /* JKPageViewController */;
+			targetProxy = A8CE92A367D7F1C75C69F707 /* PBXContainerItemProxy */;
+		};
+		585EEA1E28660A46E5C3C1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-JKPageViewController";
+			target = BB97C5772A486742CADB5D18 /* Pods-Tests-JKPageViewController */;
+			targetProxy = 211D7F5DB434DB6245855E20 /* PBXContainerItemProxy */;
+		};
+		BBA60A34441A2138C1701943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKPageViewController-JKPageViewController";
+			target = 9347CE60F83D1200DD16E5DC /* Pods-JKPageViewController-JKPageViewController */;
+			targetProxy = 5EA2100A42576CACE6CCF47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47574D289613436978FE139C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E542534E80C0A4C0D1E3EA /* Pods-Tests-JKPageViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B8E8335D7358DC7496F0246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../JKPageViewController-Bridging-Header.h";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		62728FE89D569A9A28C0A5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../JKPageViewController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8406D1B37AA02D5DFC9B495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEDD959A826302ABB6620D2 /* Pods-JKPageViewController-JKPageViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKPageViewController-JKPageViewController/Pods-JKPageViewController-JKPageViewController-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8432D496C5CD9809A1B71537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		8BDFB71178107D9C485ED466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7FAC2D3135076A337E3BC2 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF66CF6CB4A6ADBA9E04ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1A8AD469495BA4AB1CADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A09A228CA2CC1DDC67C9E74 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93F692FC17B607969352D66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E542534E80C0A4C0D1E3EA /* Pods-Tests-JKPageViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JKPageViewController/Pods-Tests-JKPageViewController-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B06CE9E9C2B65B349A6051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C56FAC58A9B8DA7591173DD /* Pods-JKPageViewController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C91BF9843132A0D2900998CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEDD959A826302ABB6620D2 /* Pods-JKPageViewController-JKPageViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKPageViewController-JKPageViewController/Pods-JKPageViewController-JKPageViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F12D676B7842737A92A9C478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339F4EFAFEDFD9C3CBEC0B53 /* Pods-JKPageViewController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367A968820D837E0BD0A3699 /* Build configuration list for PBXNativeTarget "Pods-JKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B06CE9E9C2B65B349A6051 /* Debug */,
+				F12D676B7842737A92A9C478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C57CE6BEB389E703D7827D8 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1A8AD469495BA4AB1CADEB /* Debug */,
+				8BDFB71178107D9C485ED466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFB14816DAC36EA8BF79343 /* Build configuration list for PBXNativeTarget "JKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62728FE89D569A9A28C0A5E5 /* Debug */,
+				5B8E8335D7358DC7496F0246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B20680F791F58EDA0EE5545 /* Build configuration list for PBXNativeTarget "Pods-Tests-JKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47574D289613436978FE139C /* Debug */,
+				93F692FC17B607969352D66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27400411769C240CE12A5F5 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8432D496C5CD9809A1B71537 /* Debug */,
+				8DF66CF6CB4A6ADBA9E04ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB36F7CE53B102CFBB490C2A /* Build configuration list for PBXNativeTarget "Pods-JKPageViewController-JKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91BF9843132A0D2900998CE /* Debug */,
+				8406D1B37AA02D5DFC9B495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D83EEB999570E72EC40FCAA /* Project object */;
+}
