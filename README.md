@@ -10,7 +10,7 @@ The quickest way to use page view controllers with customization and callbacks. 
 
 override func viewDidLoad() {
   super.viewDidLoad()
-  pageViewController = PageVC(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
+  pageViewController = JKPageViewController(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
   pageViewController.pages = [FirstOnboardingVC(), SecondOnboardingVC(), ThirdOnboardingVC()]
 
   addChildViewController(pageViewController)
