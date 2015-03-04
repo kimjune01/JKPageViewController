@@ -8,15 +8,16 @@ The quickest way to use page view controllers with customization and callbacks. 
 ### Code
 ``` swift
 
-func addPageVC() { // in viewDidLoad in a UIViewController subclass
-pageViewController = PageVC(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
-pageViewController.pages = [FirstOnboardingVC(), SecondOnboardingVC(), ThirdOnboardingVC()]
+override func viewDidLoad() {
+  super.viewDidLoad()
+  pageViewController = PageVC(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
+  pageViewController.pages = [FirstOnboardingVC(), SecondOnboardingVC(), ThirdOnboardingVC()]
 
-addChildViewController(self.pageViewController)
-view.addSubview(self.pageViewController.view)
-pageViewController.didMoveToParentViewController(self)
+  addChildViewController(pageViewController)
+  view.addSubview(pageViewController.view)
+  pageViewController.didMoveToParentViewController(self)
 
-pageViewController.setInitialPage()
+  pageViewController.setInitialPage()
 }
 
 ```
@@ -32,29 +33,29 @@ To enable page indicators that show white dots at the bottom:
 pageViewController.pageControlEnabled = true
 ```
 
-To enable logging for customization:
+To enable logging for looking under the hood:
 ``` swift
 pageViewController.debugging = true
 ```
 
-To get callbacks for the child view controllers to know when it appears on screen:
+To get callbacks for the child view controllers to be notified when it appears on screen:
 ``` swift
-extension MyPagedViewController: Appearable {
-func didAppearOnScreen() {
-// called when the view finish decelerating onto the screen.
-}
+extension MyPagedChildViewController: Appearable {
+  func didAppearOnScreen() {
+    // called when the view finishes decelerating onto the screen.
+  }
 
-func didDisappearFromScreen(){
-// called when the view finish decelerating off the screen.
-}
+  func didDisappearFromScreen(){
+    // called when the view finishes decelerating off the screen.
+  }
 
-func willAppearOnScreen(){
-// called when the view begin decelerating onto the screen.
-}
+  func willAppearOnScreen(){
+    // called when the view begins accelerating onto the screen.
+  }
 
-func willDisappearFromScreen(){
-// called when the view begin decelerating off the screen.
-}
+  func willDisappearFromScreen(){
+    // called when the view begins accelerating off the screen.
+  }
 }
 ```
 
