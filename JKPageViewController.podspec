@@ -11,14 +11,6 @@ Pod::Spec.new do |s|
   s.name             = "JKPageViewController"
   s.version          = "0.1.0"
   s.summary          = "A simple wrapper class for UIPageViewController with easy implementation."
-s.description      = " - encapsulates common delegate methods
-
-- keeps track of indexes
-
-- turns page control on/off with the pageControlEnabled boolean
-
-- comes with an Appearable hook for child view controllers
-"
   s.homepage         = "https://github.com/kimjune01/JKPageViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
