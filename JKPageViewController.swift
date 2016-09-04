@@ -20,18 +20,18 @@ import UIKit
 }
 
 /** A pre-configured wrapper class for UIPageViewController with a simple implementation that:
-
+ 
  - encapsulates common delegate methods
  - keeps track of indexes
  - turns page control on/off with the pageControlEnabled boolean
  - comes with an Appearable hook for child view controllers
-
-*/
+ 
+ */
 @objc class JKPageViewController: UIPageViewController {
   /// for inspecting view hierarchy and current index.
   var debugging:Bool = false {
     didSet {
-      println("JKPageViewController debugging: \(debugging)")
+      print("JKPageViewController debugging: \(debugging)")
     }
   }
   /// allows for removal of dead space at the bottom when configured before viewDidLoad
@@ -75,38 +75,37 @@ import UIKit
         //
       })
     } else if debugging {
-      println("JKPageViewController does not have any pages!")
+      print("JKPageViewController does not have any pages!")
     }
   }
   
   func recursivelyIterateSubviews(view: UIView) {
     if debugging {
-      println("\(String.fromCString(object_getClassName(view))) :: frame: \(view.frame)")
+      print("\(String.fromCString(object_getClassName(view))) :: frame: \(view.frame)")
     }
     for eachSubview in view.subviews {
       if let scrollView = eachSubview as? UIScrollView {
         scrollView.delegate = self
         scrollView.frame = CGRectMake(0, 0, view.frame.width, view.frame.height)
       }
-      recursivelyIterateSubviews((eachSubview as? UIView)!)
+      recursivelyIterateSubviews(eachSubview)
     }
   }
-
+  
 }
 
 extension JKPageViewController: UIPageViewControllerDelegate {
-  
-  func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
+  func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
     if !completed { return }
     previousIndex = currentIndex
     currentIndex = nextIndex
     
   }
-  
-  func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
-    nextVC = pendingViewControllers.first as? UIViewController
-    nextIndex = find(pages, nextVC)
+  func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [UIViewController]) {
+    nextVC = pendingViewControllers.first
+    nextIndex = pages.indexOf(nextVC)!
   }
+  
   
   func viewControllerAtIndex(index: Int) -> UIViewController?{
     if pages.count == 0 || index >= pages.count {
@@ -145,14 +144,14 @@ extension JKPageViewController: UIScrollViewDelegate {
     (pages[previousIndex] as? Appearable)?.didDisappearFromScreen()
     (pages[currentIndex] as? Appearable)?.didAppearOnScreen()
     if debugging {
-      println("previousIndex: \(previousIndex) viewController: \(pages[previousIndex])")
-      println("currentIndex: \(currentIndex) viewController: \(pages[currentIndex])")
+      print("previousIndex: \(previousIndex) viewController: \(pages[previousIndex])")
+      print("currentIndex: \(currentIndex) viewController: \(pages[currentIndex])")
     }
   }
   
   func scrollViewWillBeginDecelerating(scrollView: UIScrollView) {
     if debugging {
-      println("nextIndex: \(nextIndex) viewController: \(pages[nextIndex])")
+      print("nextIndex: \(nextIndex) viewController: \(pages[nextIndex])")
     }
     (pages[currentIndex] as? Appearable)?.willDisappearFromScreen()
     (pages[nextIndex] as? Appearable)?.willAppearOnScreen()
@@ -178,31 +177,31 @@ extension JKPageViewController: UIPageViewControllerDataSource {
 }
 
 /* Implementation:
-
-func makeViewControllers() {
-  let loginMockVC = MockupVC()
-  loginMockVC.mockupImage = UIImage(named: "login.png")
-  let exploreMockVC = MockupVC()
-  exploreMockVC.mockupImage = UIImage(named: "explore.png")
-  let trendingMockVC = MockupVC()
-  trendingMockVC.mockupImage = UIImage(named: "trending.png")
-  let specificMockVC = MockupVC()
-  specificMockVC.mockupImage = UIImage(named: "specific.png")
-
-  viewControllers = [loginMockVC, exploreMockVC, trendingMockVC, specificMockVC]
-}
-
-func addPageVC() {
-  pageViewController = PageVC(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
-
-  pageViewController.pageControlEnabled = true
-  pageViewController.debugging = true
-  pageViewController.pages = viewControllers
-  addChildViewController(self.pageViewController)
-  view.addSubview(self.pageViewController.view)
-  pageViewController.didMoveToParentViewController(self)
-
-  pageViewController.setInitialPage()
-}
-
-*/
+ 
+ func makeViewControllers() {
+ let loginMockVC = MockupVC()
+ loginMockVC.mockupImage = UIImage(named: "login.png")
+ let exploreMockVC = MockupVC()
+ exploreMockVC.mockupImage = UIImage(named: "explore.png")
+ let trendingMockVC = MockupVC()
+ trendingMockVC.mockupImage = UIImage(named: "trending.png")
+ let specificMockVC = MockupVC()
+ specificMockVC.mockupImage = UIImage(named: "specific.png")
+ 
+ viewControllers = [loginMockVC, exploreMockVC, trendingMockVC, specificMockVC]
+ }
+ 
+ func addPageVC() {
+ pageViewController = PageVC(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
+ 
+ pageViewController.pageControlEnabled = true
+ pageViewController.debugging = true
+ pageViewController.pages = viewControllers
+ addChildViewController(self.pageViewController)
+ view.addSubview(self.pageViewController.view)
+ pageViewController.didMoveToParentViewController(self)
+ 
+ pageViewController.setInitialPage()
+ }
+ 
+ */
